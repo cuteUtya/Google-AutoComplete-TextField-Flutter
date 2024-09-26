@@ -304,6 +304,10 @@ class _GooglePlaceAutoCompleteTextFieldState
   }
 
   _showSnackBar(String errorData) {
+    //Is feels so damn good when 
+    //package doing shit it's not supposed to to
+    //mind you own busines and do not touch the UI 
+    return;
     if (widget.showError) {
       final snackBar = SnackBar(
         content: Text("$errorData"),
